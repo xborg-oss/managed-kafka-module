@@ -1,0 +1,25 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Local variable files
+# *.tfvars
+*.tfvars.json
+
+# Sensitive files
+*.pem
+*.key
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Ignore local test backend config
+example/test_local.tf 
+*_local.tf
